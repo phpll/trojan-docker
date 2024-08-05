@@ -29,7 +29,7 @@ services:
         - password=${password}
     volumes:
       - ./cert/:/usr/local/etc/trojan/cert/
-      - ./trojan/config/:/usr/local/etc/trojan/config/
+      - ./trojan/config/:/usr/local/etc/trojan/
     ports:
       - "7443:443"
     networks: 
